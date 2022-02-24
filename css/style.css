@@ -1,3 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+}
 .hidden { 
     display: none;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99%;
+    height: 98vh;
+    color: white;
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+ul {
+    list-style: none;
+}
+input, button {
+    all:unset;
+}
+.before-login h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.before-login input {
+    font-size: 40px;
+    font-weight: bold;
+    max-width: 450px;
+    border-bottom: 1px solid white;
+}
+
+.after-login #clock {
+    font-size: 150px;
+    margin-bottom: 1px;
+}
+.after-login #greeting {
+    font-size: 40px;
+    margin-bottom: 55px;
+}
+.after-login h3 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.after-login input {
+    font-size: 25px;
+    font-weight: 500;
+    max-width: 400px;
+    border-bottom: 1px solid white;
+}
+#todo-list span {
+    font-size: 25px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+#todo-list button {
+    font-size: 25px;
+    position: relative;
+}
+#quote {
+    position: fixed;
+    bottom:30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#weather {
+    position: fixed;
+    top: 30px;
+    right: 50px;
 }
